@@ -4,7 +4,7 @@ Project ini menjelaskan bagaimana membuat sebuah form survey menggunakan **Emmet
 
 ---
 
-## 📑 Struktur Form & Emmet
+## Struktur Form & Emmet
 
 ### 1. Input Nama
 
@@ -45,3 +45,6 @@ div>label+br+(label[for="yesPerokok"]>input[type="radio" id="yesPerokok" name="i
 ```emmet
 div>label{Jika anda perokok, rokok apa yang anda pernah coba?}+br+((label>input[type="checkbox" name="jenisRokok"])+br)*4
 ```
+
+## Hasil Form
+![alt text](image.png)
