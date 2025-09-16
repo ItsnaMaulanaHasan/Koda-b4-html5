@@ -47,4 +47,9 @@ div>label{Jika anda perokok, rokok apa yang anda pernah coba?}+br+((label>input[
 ```
 
 ## Hasil Form
-![alt text](image.png)
+
+![alt text](./assets/img/form.png)
+
+## Hasil Tabel
+
+![alt text](./assets/img/table.png)
