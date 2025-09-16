@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" />
+  <title>Form Survey Perokok</title>
+</head>
+
+<body>
+  <!-- div>label[for="name"]{Siapa nama anda?}+br+input[type="text" id="name" name="name"] -->
+  <div>
+    <label for="name">Siapa nama anda?</label><br />
+    <input type="text" id="name" name="name" />
+  </div>
+
+  <!-- div>label[for="umur"]{Berapa umur anda?}+br+input[type="number" id="umur" name="umur"] -->
+  <div>
+    <label for="umur">Berapa umur anda?</label><br />
+    <input type="number" id="umur" name="umur" />
+  </div>
+
+  <!-- div>label{Apa jenis kelamin anda?}+br+(label[for="laki_laki"]>input[type="radio" id="laki_laki" name="gender" value="laki_laki"]{Laki-laki})+label[for="perempuan"]>input[type="radio" id="perempuan" name="gender" value="perempuan"]{Perempuan} -->
+  <div>
+    <label for="">Apa jenis kelamin anda?</label><br>
+    <label for="laki_laki">
+      <input type="radio" id="laki_laki" name="gender" value="laki_laki">Laki-laki</input>
+    </label>
+    <label for="perempuan">
+      <input type="radio" id="perempuan" name="gender" value="perempuan">Perempuan</input>
+    </label>
+  </div>
+
+  <!-- div>label+br+(label[for="yesPerokok"]>input[type="radio" id="yesPerokok" name="isPerokok" value="ya"])+label[for="notPerokok"]>input[type="radio" id="notPerokok" name="isPerokok" value="tidak"] -->
+  <div>
+    <label>Apakah anda seorang perokok?</label><br />
+    <label for="yesPerokok"> <input type="radio" id="yesPerokok" name="isPerokok" value="ya" />Ya </label>
+    <label for="notPerokok"> <input type="radio" id="notPerokok" name="isPerokok" value="tidak" />Tidak </label>
+  </div>
+
+  <!-- div>label{Jika anda perokok, rokok apa yang anda pernah coba?}+br+((label>input[type="checkbox" name="jenisRokok"])+br)*4 -->
+   <div>
+    <label>Jika anda perokok, rokok apa yang anda pernah coba?</label><br>
+    <label for="gudang_garam"><input type="checkbox" name="jenisRokok" id="gudang_garam" value="gudang_garam">Gudang Garam Filter</label><br>
+    <label for="lucky_strike"><input type="checkbox" name="jenisRokok" id="lucky_strike" value="lucky_strike">Lucky Strike</label><br>
+    <label for="marlboro"><input type="checkbox" name="jenisRokok" id="marlboro" value="marlboro">Marlboro</label><br>
+    <label for="esse"><input type="checkbox" name="jenisRokok" id="esse" value="esse">Esse</label><br>
+  </div>
+</body>
+
+</html>
